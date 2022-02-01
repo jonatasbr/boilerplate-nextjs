@@ -1,9 +1,7 @@
-type HomeProps = {
-  title: string;
-};
+import Main from 'components/Main';
 
-const Home = ({ title = 'react nextjs with typescript' }: HomeProps) => {
-  return <h1>{title}</h1>;
+const Home = () => {
+  return <Main />;
 };
 
 export default Home;

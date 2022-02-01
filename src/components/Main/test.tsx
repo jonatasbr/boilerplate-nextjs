@@ -7,15 +7,15 @@ describe('<Main />', () => {
     const { container } = render(<Main />);
 
     expect(
-      screen.getByRole('heading', { name: /react boilerplate/i })
+      screen.getByRole('heading', { name: /Setup Project Frontend/i })
     ).toBeInTheDocument();
 
-    expect(container.firstChild).toMatchInlineSnapshot(`
-      <main>
-        <h1>
-          react boilerplate
-        </h1>
-      </main>
-    `);
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  it('should render the colors correctly', () => {
+    const { container } = render(<Main />);
+
+    expect(container.firstChild).toHaveStyle({ 'background-color': '#ffffff' });
   });
 });

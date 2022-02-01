@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> should render the heading 1`] = `
+<main
+  class="styles__Wrapper-sc-1fxwth9-0 gXZVpI"
+>
+  <img
+    alt="Imagem de logomarca da Vercel - que é um triângulo"
+    class="styles__Logo-sc-1fxwth9-1 dLHiJO"
+    src="/vercel.svg"
+  />
+  <h1
+    class="styles__Title-sc-1fxwth9-2 bEYipZ"
+  >
+    Setup Project Frontend
+  </h1>
+  <h2
+    class="styles__Description-sc-1fxwth9-3 kSGHzK"
+  >
+    Typescript, ReactJS, NextJS e Styled Components
+  </h2>
+  <img
+    alt="Imagem de logomarca do framework NextJS - que é a letra dentro de um círculo"
+    class="styles__Illustration-sc-1fxwth9-4 dKvGsC"
+    src="/next.svg"
+  />
+</main>
+`;
