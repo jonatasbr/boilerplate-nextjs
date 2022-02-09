@@ -1,15 +1,16 @@
 import * as S from './styles';
 
-const Main = () => (
+const Main = ({
+  title = 'Setup Project Frontend',
+  description = 'Typescript, ReactJS, NextJS e Styled Components',
+}) => (
   <S.Wrapper>
     <S.Logo
       src="/vercel.svg"
       alt="Imagem de logomarca da Vercel - que é um triângulo"
     />
-    <S.Title>Setup Project Frontend</S.Title>
-    <S.Description>
-      Typescript, ReactJS, NextJS e Styled Components
-    </S.Description>
+    <S.Title>{title}</S.Title>
+    <S.Description>{description}</S.Description>
     <S.Illustration
       src="/next.svg"
       alt="Imagem de logomarca do framework NextJS - que é a letra dentro de um círculo"
