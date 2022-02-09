@@ -11,7 +11,23 @@
       "@babel/plugin-proposal-private-property-in-object", { "loose": true }
     ],
     [
-      "babel-plugin-styled-components", { "ssr": true }
+      "babel-plugin-styled-components", {
+        "ssr": true,
+        "displayName": false
+      }
     ]
-  ]
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        [
+          "babel-plugin-styled-components",
+          {
+            "ssr": false,
+            "displayName": false
+          }
+        ]
+      ]
+    }
+  }
 }
