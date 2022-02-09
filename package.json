@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-learn",
+  "name": "setup-next",
   "private": true,
   "scripts": {
     "dev": "next dev",
